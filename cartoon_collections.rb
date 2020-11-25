@@ -25,6 +25,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  valid_calls.to_s 
   planeteer_calls.find {|str| str.include?(valid_calls)}
     
   
